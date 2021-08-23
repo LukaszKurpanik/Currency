@@ -1,0 +1,35 @@
+html,
+body{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    color: #323941;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.tabelaKurs{ 
+    border-collapse:collapse;  
+    tr{
+        border-bottom:1px solid #dddddd;
+          th{
+            background:#0076b8; 
+            padding:10px 25px 10px 15px; 
+            font-weight:600; 
+            text-align:left; 
+            color:#e6bf41;
+           }
+           td{
+             padding:10px 35px 10px 15px;
+           }
+    }
+    tr:hover{
+         background:#f3f3f3;
+    }
+    tr:nth-child(odd) {
+        background:#f9f9f9;
+    }
+}
